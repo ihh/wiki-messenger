@@ -1,0 +1,11 @@
+<body>
+  <div id="wikimess"></div>
+</body>
+
+<script type="text/javascript">
+  var wm
+  $(function() {
+    wm = new WikiMess(<%- (loggedIn ? '{player:'+JSON.stringify(player)+'}' : '') -%>)
+  
+  })
+</script>

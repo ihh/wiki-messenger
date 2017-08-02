@@ -1,0 +1,118 @@
+
+/* Portrait view */
+@media all and (orientation:portrait) {
+    /* Game view */
+    .wikimess {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+    }
+
+    .wikimess .navbar {
+	height: 15vw;
+	min-height: 15vw;
+    }
+
+    .wikimess .navbar .navicon {
+	width: 15vw;
+	height: 15vw;
+    }
+
+    .wikimess .menubar .list {
+	flex-direction: column;
+    }
+    
+    .wikimess .menubar a,
+    .wikimess .backbar a {
+	padding: 4px 8px 4px 8px;
+    }
+
+    /* Menu views */
+    .wikimess .inputbar {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+    }
+
+    .wikimess .inputbar form {
+	width: 60vw;
+    }
+
+    .wikimess .titlebar {
+	width: 100vw;
+	height: 6vh;
+	text-align: center;
+    }
+
+    .wikimess .menucontainer {
+	display: flex;
+	flex-direction: column;
+    }
+
+    .wikimess .menubar {
+	width: 100vw;
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    }
+
+    .wikimess .menubar .listitem,
+    .wikimess .menubar .card {
+	font-size: 18px;
+	margin: 4vh;
+    }
+
+    .wikimess .menubar .rubric {
+	width: 80vw;
+    }
+
+    .wikimess .whobar .search .followsection {
+	box-shadow: 1vw 1vw 1vw 0px gray;
+    }
+
+    .wikimess .symbolsearch {
+	box-shadow: 1vw 1vw 1vw 0px gray;
+    }
+
+    .wikimess .grammarbar .rule .rhs {
+	margin: 1vw;
+    }
+
+    .wikimess .grammarbar .rule .lhs,
+    .wikimess .grammarbar .rule .rulecontrols {
+	margin: 1vw;
+    }
+
+    .wikimess .grammarinfopane {
+	box-shadow: 1vw -1vw 1vw 0px gray;
+    }
+
+    .wikimess .grammarinfopane .content {
+	max-height: 40vw;
+	min-height: 40vw;
+    }
+
+    .wikimess .ratinginfo .ratinginfolabel {
+	width: 30vw;
+    }
+
+    .wikimess .messageheader .label {
+	width: 25vw;
+    }
+
+    .wikimess .messageheader .input {
+	max-height: 20vh;
+    }
+
+    .wikimess .messageheader .input .results {
+	box-shadow: 1vw 1vw 1vw 0px gray;
+    }
+
+    .wikimess .subnavbar span {
+	padding: 2px;
+    }
+}

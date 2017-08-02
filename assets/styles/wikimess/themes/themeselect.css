@@ -1,0 +1,14 @@
+/* Theme selection page */
+
+.wikimess .themegroup input:checked + label li {
+    background-color: #444;
+    opacity: 1;
+}
+
+.wikimess .themegroup label {
+    background: black;
+}
+
+.wikimess .themegroup input:checked + label {
+    background: #444;
+}

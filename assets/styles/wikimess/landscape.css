@@ -1,0 +1,130 @@
+
+/* Landscape view */
+@media all and (orientation:landscape) {
+    /* Game view */
+    .wikimess {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+    }
+
+    .wikimess .navbar {
+	height: 15vh;
+	min-height: 15vh;
+    }
+
+    .wikimess .navbar .navicon {
+	width: 15vh;
+	height: 15vh;
+    }
+
+    .wikimess .menubar .list {
+	height: 8em;
+	flex-direction: row;
+    }
+
+    .wikimess .menubar a,
+    .wikimess .backbar a {
+	padding: 4px 8px 4px 8px;
+    }
+
+    /* Menu views */
+    .wikimess .inputbar {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+    }
+
+    .wikimess .inputbar form {
+	width: 60vw;
+    }
+
+    .wikimess .titlebar {
+	width: 100vw;
+	height: 12vh;
+	text-align: center;
+    }
+
+    .wikimess .menucontainer {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+    }
+
+    .wikimess .menubar {
+	width: 100vw;
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    }
+
+    .wikimess .menubar .listitem,
+    .wikimess .menubar .card {
+	font-size: 16px;
+	margin: 3vw 4vw;
+    }
+
+    .wikimess .menubar .rubric {
+	width: 80vw;
+    }
+
+    .wikimess .menubar ul.horizontal-list {
+	list-style: none;
+	margin: 4vh;
+    }
+
+    .wikimess .menubar .horizontal-list li {
+	display: inline;
+    }
+
+    .wikimess .whobar .search .followsection {
+	box-shadow: 1vh 1vh 1vh 0px gray;
+    }
+
+    .wikimess .symbolsearch {
+	box-shadow: 1vh 1vh 1vh 0px gray;
+    }
+
+    .wikimess .grammarbar .rule .rhs {
+	margin: 1vh;
+    }
+
+    .wikimess .grammarbar .rule .lhs,
+    .wikimess .grammarbar .rule .rulecontrols {
+	margin: 1vh;
+    }
+
+    .wikimess .grammarinfopane {
+	box-shadow: 1vh -1vh 1vh 0px gray;
+    }
+
+    .wikimess .grammarinfopane .content {
+	max-height: 40vh;
+	min-height: 40vh;
+    }
+
+    .wikimess .ratinginfo .ratinginfolabel {
+	width: 30vh;
+    }
+
+    .wikimess .messageheader .label {
+	width: 25vh;
+    }
+
+    .wikimess .messageheader .input {
+	max-height: 20vw;
+    }
+
+    .wikimess .messageheader .input .results {
+	box-shadow: 1vh 1vh 1vh 0px gray;
+    }
+
+    .wikimess .subnavbar span {
+	padding: 2px;
+    }
+}
